@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 from matplotlib import pyplot as plt
 
-img = cv2.imread("lamborghini.jpg", 0)
+img = cv2.imread("img/mountain.jpg", 0)
 canny = cv2.Canny(img, 100, 200)
 
 titles = ["Image", "CannyEdge"]
